@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import classes from './Title.module.scss';
+import logo from '../images/logo-tight.svg'
 
 export function Title (){
     const TITLE='WHISKY GURU'
@@ -12,9 +12,12 @@ export function Title (){
 
 
     return (<Container className={classes.container}>
-                <Col className={classes.column}>
-                    <Row className={classes.mainTitle}>{TITLE}</Row>
-                    <Row className={classes.subTitle}>{SUBTITLE}</Row>
+                <Col>
+                    <img className={classes.logo} src={logo} alt='Logo'/>
+                </Col>
+                <div className={classes.column}>
+                    <h1 className={classes.mainTitle}>{TITLE}</h1>
+                    <h2 className={classes.subTitle}>{SUBTITLE}</h2>
                     <a className={classes.authorText} href={AUTHOR_GITHUB}>{AUTHOR}</a>
-                </Col></Container>)
+                </div></Container>)
 }
