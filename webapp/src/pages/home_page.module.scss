@@ -1,0 +1,22 @@
+.controlButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+
+  button + button {
+    margin-left: 10px;
+  }
+}
+
+.whiskyCard{
+  margin-top: 10px;
+}
+
+.cardBody {
+  justify-content: center;
+}
+
+.responseProgressBar{
+  margin: 10px;
+}

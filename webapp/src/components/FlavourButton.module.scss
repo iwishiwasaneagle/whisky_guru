@@ -1,0 +1,37 @@
+.flavourButtonContainer{
+    display:inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.custButton{
+    height: 100%;
+}
+
+.flavourButtonGrid{
+    display: grid;
+    grid-template-rows: 50% 50
+}
+
+.flavourButtonText{
+    display: table-cell;
+}
+
+.flavourText {
+    display: flex ;
+    justify-content: center;
+    line-height: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.counterText {
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
