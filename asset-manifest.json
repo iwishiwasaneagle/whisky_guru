@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/whisky_guru/static/css/main.a5ba0183.chunk.css",
-    "main.js": "/whisky_guru/static/js/main.8fb46c2d.chunk.js",
-    "main.js.map": "/whisky_guru/static/js/main.8fb46c2d.chunk.js.map",
+    "main.js": "/whisky_guru/static/js/main.10e2b15e.chunk.js",
+    "main.js.map": "/whisky_guru/static/js/main.10e2b15e.chunk.js.map",
     "runtime-main.js": "/whisky_guru/static/js/runtime-main.98dfbd90.js",
     "runtime-main.js.map": "/whisky_guru/static/js/runtime-main.98dfbd90.js.map",
     "static/js/2.6029da8b.chunk.js": "/whisky_guru/static/js/2.6029da8b.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.98dfbd90.js",
     "static/js/2.6029da8b.chunk.js",
     "static/css/main.a5ba0183.chunk.css",
-    "static/js/main.8fb46c2d.chunk.js"
+    "static/js/main.10e2b15e.chunk.js"
   ]
 }
