@@ -1,9 +1,10 @@
-name: CD
+name: CI/CD
 
 on:
-  release:
-    type:
-      - created
+  push:
+    branches:
+      - main
+
 
 jobs:
   build:
