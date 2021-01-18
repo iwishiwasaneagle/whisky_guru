@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 .container{
     margin-top: 5%;
     margin-top: 7vh;
@@ -6,24 +8,28 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
+    align-content: center;
 }   
 
 .column{
     display: flex;
-    height: 250px;
+    height: 15vh;
     flex-direction:column;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .title-text{
+    z-index: 1;
     line-height: 1;
+    text-align: center;
     font-family: 'Noto Serif Display' ;
 }
 
 .mainTitle{
     @extend .title-text;
-    font-size:8rem;
+    font-size: 7rem;
     text-shadow: 2px 2px 8px gray;
 }
 
@@ -34,6 +40,12 @@
 
 .authorText{
     @extend .title-text;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: gray;
 }
+
+.logo{
+    z-index: 0;
+    height:250px;
+}
+
