@@ -51,7 +51,7 @@ export class HomePage extends React.PureComponent{
             console.log(url)
             fetch(url)
                 .then(response => response.json())
-                .then(response => this.setState((prev) => ({ ...prev, whisky_response: {...response,loading:true} })));
+                .then(response => this.setState((prev) => ({ ...prev, whisky_response: {...response,loading:false} })));
         }
     }
 
