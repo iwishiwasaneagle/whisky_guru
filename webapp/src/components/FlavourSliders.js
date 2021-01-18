@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './FlavourSliders.module.scss';
-import Row from 'react-bootstrap/Row';
 
 
 export class FlavourSliders extends React.PureComponent {

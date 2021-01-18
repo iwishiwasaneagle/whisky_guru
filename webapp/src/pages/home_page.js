@@ -44,7 +44,7 @@ export class HomePage extends React.PureComponent{
         if (this.state.flavours) {
             this.setState(p=>({...p,whisky_response:{loading:true}}))
             var url = "https://europe-west2-whiskyguru.cloudfunctions.net/get_whisky_recommendation?N=3&"
-            Object.keys(this.state.flavours).map(flavour => {
+            Object.keys(this.state.flavours).forEach(flavour => {
                 (url += flavour.toLowerCase()+ '=' + this.state.flavours[flavour] + '&')
             });
             url = url.slice(0, -1);
