@@ -1,10 +1,9 @@
-name: CI/CD
+name: CD
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  release:
+    type:
+      - created
 
 jobs:
   build:
