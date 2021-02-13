@@ -118,11 +118,12 @@ export class HomePage extends React.PureComponent{
         return (
             <Container>
                 <Col>
+                
                     <Title/>
                     <Card>
                     <Card.Header className={classes.cardTitle}>Select your desired flavours</Card.Header>
                     <Card.Body className={classes.cardBody}>
-                        {this.state.flavours ?  <FlavourSliders flavours={this.state.flavours} onChange={this.onFlavourSlidersChange.bind(this)} />: <Spinner/>  }
+                        {Object.keys(this.state.flavours).length > 0 ?  <FlavourSliders flavours={this.state.flavours} onChange={this.onFlavourSlidersChange.bind(this)} />: <Spinner/>  }
                     </Card.Body>
                     <br />
                     <Card.Footer className={classes.controlButtons}>
