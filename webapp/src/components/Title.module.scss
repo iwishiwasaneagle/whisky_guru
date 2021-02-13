@@ -1,51 +1,10 @@
-@import "~bootstrap/scss/bootstrap";
-
-.container{
+.logoRow{
     margin-top: 5%;
     margin-top: 7vh;
     margin-bottom: 5%;
     margin-bottom: 7hv;
-    display: flex;
-    flex-direction: row;
+
     align-items: center;
-    justify-content: flex-start;
     align-content: center;
+    justify-content: center;   
 }   
-
-.column{
-    display: flex;
-    height: 15vh;
-    flex-direction:column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.title-text{
-    z-index: 1;
-    line-height: 1;
-    text-align: center;
-    font-family: 'Noto Serif Display' ;
-}
-
-.mainTitle{
-    @extend .title-text;
-    font-size: 7rem;
-    text-shadow: 2px 2px 8px gray;
-}
-
-.subTitle{
-    @extend .title-text;
-    font-size: 2rem;
-}
-
-.authorText{
-    @extend .title-text;
-    font-size: 2rem;
-    color: gray;
-}
-
-.logo{
-    z-index: 0;
-    height:250px;
-}
-
